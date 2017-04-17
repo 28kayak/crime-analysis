@@ -23,18 +23,26 @@ app.get('/crime', function (req,res) {
     var radius = 0.01;//mile
     spotcrime.getCrimes(location, radius, function (err, crimes) {
         console.log("In spotcrime.getCrime()");
-        if(err !== null)
+        console.log(res);
+        if(err != null)
         {
+            console.log("Error from err != null")
             res.send("ERROR!!!");
+
         }
         else
         {
             if(crimes == "[]")
             {
                 //not worked
+                console.log("no data abaialbe error")
                 res.send("No Data Available");
             }
-            res.send(crimes);
+            else
+            {
+                console.log(crimes);
+                res.send(crimes);
+            }
         }
         
     });//getCrimes*/
