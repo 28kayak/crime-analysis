@@ -11,8 +11,8 @@
   "dependencies": {
     "express": "^4.15.2",
     "node": "^6.10.2",
-    "spotcrime": "file:spotcrime",
-    "request": "^2.0.0"
+    "request": "^2.81.0",
+    "spotcrime": "file:spotcrime"
   },
   "engines": {
     "node": "^6.10.2"
