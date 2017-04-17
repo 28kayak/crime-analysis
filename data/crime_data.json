@@ -1,0 +1,50 @@
+[ { cdid: 91697527,
+  type: 'Robbery',
+  date: '04/07/17 05:15 PM',
+  address: '18XX E PLEASANT LN',
+  link: 'https://spotcrime.com/crime/91697527-7d838b7f4ef97fc1e126f81cc2fba
+  lat: 33.3920141,
+  lon: -112.0424819 },
+  { cdid: 91697414,
+    type: 'Assault',
+    date: '04/07/17 02:41 PM',
+    address: '62XX S 20TH ST',
+    link: 'https://spotcrime.com/crime/91697414-b91881245c26809bda5b1d5d36b5a
+    lat: 33.3909799,
+    lon: -112.0387149 },
+  { cdid: 91663945,
+    type: 'Theft',
+    date: '04/06/17 08:30 AM',
+    address: '46XX S 22ND ST',
+    link: 'https://spotcrime.com/crime/91663945-6a40aecf9fec4c65d565c4abab034
+    lat: 33.4051749,
+    lon: -112.0342499 },
+  { cdid: 91550292,
+    type: 'Burglary',
+    date: '04/03/17 03:00 AM',
+    address: '48XX S 20TH ST',
+    link: 'https://spotcrime.com/crime/91550292-a2459cb7655e75c1cb4fe0bd6a9fe
+    lat: 33.4035117,
+    lon: -112.0384863 },
+  { cdid: 91466723,
+    type: 'Burglary',
+    date: '03/31/17 09:00 AM',
+    address: '53XX S 23RD WAY',
+    link: 'https://spotcrime.com/crime/91466723-af9c8e409450566c0aa6b51ae7985
+    lat: 33.3984564,
+    lon: -112.0303488 },
+  { cdid: 91420427,
+    type: 'Burglary',
+    date: '03/30/17 11:30 PM',
+    address: '24XX E MOBILE LN',
+    link: 'https://spotcrime.com/crime/91420427-db36df6abcbc47c6929c2338a7eed
+    lat: 33.4014292,
+    lon: -112.0298722 },
+  { cdid: 91350930,
+    type: 'Theft',
+    date: '03/28/17 03:30 AM',
+    address: '26XX E JESSICA LN',
+    link: 'https://spotcrime.com/crime/91350930-e9cb6b3e14d0296656cd8695e4521
+    lat: 33.3939026,
+    lon: -112.0254631 }
+]

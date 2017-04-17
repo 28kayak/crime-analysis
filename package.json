@@ -1,0 +1,15 @@
+{
+  "name": "crime-analysys",
+  "version": "0.0.1",
+  "description": "using crime data api, mapping to the map ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaya Ota",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "spotcrime": "file:spotcrime"
+  }
+}
