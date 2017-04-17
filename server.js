@@ -27,6 +27,11 @@ app.get('/crime', function (req,res) {
         }
         else
         {
+            if(crimes == "[]")
+            {
+                //not worked 
+                res.send("No Data Available");
+            }
             res.send(crimes);
         }
         

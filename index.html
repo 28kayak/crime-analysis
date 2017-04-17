@@ -3,18 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Crime Search</title>
+
 </head>
 <body>
-    <form method="get" action="/crime">
-        <label>Latitude</label>
-        <input type="text" name="lat">
-        <br>
-        <label>Longitude</label>
-        <input type="text" name="lon">
-        <br>
-        <label>Search</label>
-        <input type="submit" name="search" value="Serach">
-    </form>
+    <div class="form">
+        <form method="get" action="/crime">
+            <label>Latitude</label>
+            <input type="text" name="lat">
+            <br>
+            <label>Longitude</label>
+            <input type="text" name="lon">
+            <br>
+            <label>Search</label>
+            <input type="submit" name="search" value="Serach">
+        </form>
+    </div>
+    <div class="example">
+        <table border="1">
+            <caption>Sample Input</caption>
+            <tr>
+                <th>Location Name</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+            </tr>
+            <tr>
+                <th>San Jose Sate University</th>
+                <th>37.3353</th>
+                <th>-121.8813</th>
+            </tr>
+            <tr>
+                <th>San Francisco City Hall</th>
+                <th>37.779172</th>
+                <th>-122.419594</th>
+            </tr>
+        </table>
+    </div>
 
 </body>
 </html>
