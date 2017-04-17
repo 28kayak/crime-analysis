@@ -3,7 +3,7 @@
 
 Access to
 ### Descprition
-Git Repo:
+Git Repo https://github.com/28kayak/crime-analysis.git
 `index.js` --->the entire application for crime search
 `data` ---> contains sample data which are retuned from spotcrime
 
