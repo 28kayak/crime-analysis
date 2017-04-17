@@ -22,6 +22,7 @@ app.get('/crime', function (req,res) {
     };
     var radius = 0.01;//mile
     spotcrime.getCrimes(location, radius, function (err, crimes) {
+        console.log("In spotcrime.getCrime()");
         if(err !== null)
         {
             res.send("ERROR!!!");
