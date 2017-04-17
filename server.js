@@ -21,7 +21,7 @@ app.get('/crime', function (req,res) {
         lon: longitude
     };
     var radius = 0.01;//mile
-    /*spotcrime.getCrimes(location, radius, function (err, crimes) {
+    spotcrime.getCrimes(location, radius, function (err, crimes) {
         if(err !== null)
         {
             res.send("ERROR!!!");
@@ -37,9 +37,10 @@ app.get('/crime', function (req,res) {
         }
         
     });//getCrimes*/
-    getCrimes(location, radius, function(err, crimes)
+   /* getCrimes(location, radius, function(err, crimes)
     {
         console.log("In the original function");
+        console.log(crimes);
         if(err != null)
         {
             res.send("ERROR");
@@ -84,7 +85,7 @@ app.get('/crime', function (req,res) {
 
 
     }
-
+*/
 
 });
 app.listen(process.env.PORT || 8080);
