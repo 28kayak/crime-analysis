@@ -2,7 +2,7 @@
   "name": "crime-analysys",
   "version": "0.0.1",
   "description": "using crime data api, mapping to the map ",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
-    "spotcrime": "file:spotcrime"
+    "node": "^6.10.2",
+    "spotcrime": "file:spotcrime",
+    "request": "^2.0.0"
+  },
+  "engines": {
+    "node": "^6.10.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
   }
 }
